@@ -15,7 +15,7 @@ app.use((request, response, next) => {
 });
 
 
-mongoose.connect("mongodb+srv://amitvish:4nai6CZgrFtr5B7R@cluster0.3bgsk.mongodb.net/klenty?retryWrites=true&w=majority", {useNewUrlParser: true})
+mongoose.connect("mongodb+srv://lddu818:27o3D6VwW2z1zHMj@cluster0.6gomf.mongodb.net/klenty_DB?retryWrites=true&w=majority", {useNewUrlParser: true})
 .then( () => console.log("MongoDb is connected"))
 .catch ( err => console.log(err) )
 
